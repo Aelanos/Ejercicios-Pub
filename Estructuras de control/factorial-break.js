@@ -10,3 +10,4 @@ while ( numero < 10) {
         break;
 }
 console.log(factorial)
+
