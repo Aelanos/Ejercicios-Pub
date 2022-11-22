@@ -8,28 +8,28 @@ listaCompra.push("aceite de girasol")
 console.log(listaCompra);
 // Peliculas 
 const peliculasFav = [
-    { Titulo: "harry Potter y la piedra Filosofal", Director: "J. K. Rowling", Fecha: new Date("November 29 2001") },
-    { Titulo: "Happy Feet", Director: "George Miller", Fecha: new Date("December 1 2006") },
-    { Titulo: "School of Rock", Director: "Richard Linklater", Fecha: new Date("February 13 2004") }
+    { titulo: "harry Potter y la piedra Filosofal", director: "J. K. Rowling", fecha: new Date("November 29 2001") },
+    { titulo: "Happy Feet", director: "George Miller", fecha: new Date("December 1 2006") },
+    { titulo: "School of Rock", director: "Richard Linklater", fecha: new Date("February 13 2004") }
 ]
 
 const fechaPost = peliculasFav.filter(peliculasFav => peliculasFav.Fecha > new Date("january 1 2010"))
 console.log(fechaPost);
 
 // Concatenacion 
-const Directores = peliculasFav.map(peliculasFav => {
-    return peliculasFav.Director
+const directores = peliculasFav.map(peliculasFav => {
+    return peliculasFav.director
 })
-const Peliculas = peliculasFav.map(peliculasFav => {
-    return peliculasFav.Titulo
+const peliculas = peliculasFav.map(peliculasFav => {
+    return peliculasFav.titulo
 })
 
-console.log(Directores);
-console.log(Peliculas);
+console.log(directores);
+console.log(peliculas);
 
-const dirTit_Concat = Directores.concat(Peliculas)
+const dirTit_Concat = directores.concat(peliculas)
 console.log(dirTit_Concat);
 
 
-const dirTit_prop = [...Directores, ...Peliculas]
+const dirTit_prop = [...directores, ...peliculas]
 console.log(dirTit_prop);
