@@ -6,7 +6,7 @@ console.log(listaCompra);
 listaCompra.push("aceite de girasol")
 
 console.log(listaCompra);
-// Peliculas 
+// Películas 
 const peliculasFav = [
     { titulo: "harry Potter y la piedra Filosofal", director: "J. K. Rowling", fecha: new Date("November 29 2001") },
     { titulo: "Happy Feet", director: "George Miller", fecha: new Date("December 1 2006") },
@@ -16,7 +16,7 @@ const peliculasFav = [
 const fechaPost = peliculasFav.filter(peliculasFav => peliculasFav.Fecha > new Date("january 1 2010"))
 console.log(fechaPost);
 
-// Concatenacion 
+// Concatenación 
 const directores = peliculasFav.map(peliculasFav => {
     return peliculasFav.director
 })
@@ -33,3 +33,4 @@ console.log(dirTit_Concat);
 
 const dirTit_prop = [...directores, ...peliculas]
 console.log(dirTit_prop);
+
