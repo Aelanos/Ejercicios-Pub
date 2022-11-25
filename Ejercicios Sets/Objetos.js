@@ -11,9 +11,9 @@ const propAge = "age"
 console.log(meObj[propAge]);
 
 const listData = [
-    {...meObj},
-    {Name: "Matías",lastName: "Flores",age: 30,Size: 190,isDeveloper: false,},
-    {Name: "Ignacio",lastName: "Soto",age: 28,Size: 180,isDeveloper: false}
+    { ...meObj },
+    { Name: "Matías", lastName: "Flores", age: 30, Size: 190, isDeveloper: false, },
+    { Name: "Ignacio", lastName: "Soto", age: 28, Size: 180, isDeveloper: false }
 ]
 
 
