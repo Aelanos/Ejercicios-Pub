@@ -15,10 +15,11 @@ const logger = winston.createLogger({
     ],
 });
 
-
 function imprimirError() {
     throw new Error("ingresa los datos correctamente")
 }
+
+console.log(imprimirError);
 try {
     imprimirError();
 } catch (e) {
