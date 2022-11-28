@@ -10,7 +10,7 @@ imprimeTrue();
 
 
 const promise = promesa();
-async function promesa() {
+function promesa() {
     return setTimeout(() => console.log("Hola soy una promesa"), 5000)
 };
 
@@ -33,3 +33,4 @@ console.log(pares.next());
 console.log(pares.next());
 console.log(pares.next());
 console.log(pares.next());
+
