@@ -5,14 +5,13 @@ function imprimeTrue() {
     const i = ("true")
     console.log(i);
 };
-
 imprimeTrue();
+const i = () => true;
+console.log(i);
 
 
-const promise = promesa();
-function promesa() {
-    return setTimeout(() => console.log("Hola soy una promesa"), 5000)
-};
+
+const promesa = setTimeout(() => console.log("Hola soy una promesa"), 5000)
 
 
 function* idsPares() {
