@@ -5,9 +5,7 @@ function imprimeTrue() {
     const i = ("true")
     console.log(i);
 };
-imprimeTrue();
-const i = () => true;
-console.log(i);
+
 
 
 
